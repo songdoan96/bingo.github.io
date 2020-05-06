@@ -1,0 +1,53 @@
+@media only screen and (max-width: 650px) {
+  body {
+    text-align: center;
+    background-color: #27ae60;
+  }
+
+  #num {
+    display: flex;
+    text-align: center;
+    margin: 7px auto;
+    font-size: 50px;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    font-weight: 900;
+  }
+  #number1 {
+    flex: 1;
+    transform: rotate(180deg);
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    color: aqua;
+  }
+  #number2 {
+    margin-left: 50px;
+    flex: 1;
+    line-height: 50px;
+    border: 2px solid red;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    color: khaki;
+  }
+
+  #mytable {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: aqua;
+    transform: rotate(180deg);
+    font-weight: 500;
+    font-size: large;
+  }
+  #mytable2 {
+    font-weight: 500;
+    font-size: large;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: khaki;
+  }
+}
